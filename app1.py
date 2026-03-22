@@ -7,7 +7,7 @@ st.set_page_config(page_title="Spain Top 50 Dashboard", layout="wide")
 # -------------------------------
 # LOAD DATA
 # -------------------------------
-df = pd.read_csv(r"C:\Users\admin\Downloads\Atlantic_Spain.csv")
+df = pd.read_csv(r"Atlantic_Spain.csv")
 df['date'] = pd.to_datetime(df['date'])
 
 # -------------------------------
